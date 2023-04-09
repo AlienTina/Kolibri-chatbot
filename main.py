@@ -91,7 +91,7 @@ def run(stdscr):
         stdscr.clear()
         stdscr.refresh()
         stdscr.addstr('> ' + message + '\n')
-        stdscr.addstr(chara_name + '\n' + output_text + '\n \n')
+        stdscr.addstr(chara_name + ':\n' + output_text + '\n \n')
         stdscr.refresh()
         SpeakText(output_text)
         #if stdscr.getch() == 27:
